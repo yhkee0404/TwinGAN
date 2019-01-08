@@ -1,0 +1,2208 @@
+/root/venv/local/lib/python2.7/site-packages/cryptography/hazmat/primitives/constant_time.py:26: CryptographyDeprecationWarning: Support for your Python version is deprecated. The next version of cryptography will remove support. Please upgrade to a 2.7.x release that supports hmac.compare_digest as soon as possible.
+  utils.DeprecatedIn23,
+2018-12-28 19:46:35.482778: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+ERROR:tensorflow:Cannot parse hostport 
+45.192.39.225 - - [28/Dec/2018 19:46:35] "GET /static/ HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:36] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:36] "GET /static/jquery.min.js HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:36] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:37] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:37] "GET /static/animator.js HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:40] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:40] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+2018-12-28 19:46:45.318810: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2018-12-28 19:46:45.352420: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2018-12-28 19:46:45.377438: W tensorflow/core/framework/allocator.cc:122] Allocation of 16777216 exceeds 10% of system memory.
+2018-12-28 19:46:45.412109: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2018-12-28 19:46:45.426411: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+/usr/lib/python2.7/dist-packages/scipy/misc/pilutil.py:413: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if issubdtype(ts,int):
+/usr/lib/python2.7/dist-packages/scipy/misc/pilutil.py:415: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  elif issubdtype(type(size),float):
+/root/venv/local/lib/python2.7/site-packages/tensorflow_serving/apis/prediction_service_pb2.py:131: DeprecationWarning: beta_create_PredictionService_stub() method is deprecated. This method will be removed in near future versions of TF Serving. Please switch to GA gRPC API in prediction_service_pb2_grpc.
+  'prediction_service_pb2_grpc.', DeprecationWarning)
+GPU: -1
+serving at  : 8000
+Face cropping inference time cost: 1.40283417702
+.45.192.39.225 - - [28/Dec/2018 19:46:51] "POST /post HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:51] "GET /static/images/cropped_faces/YGHIFJ11NL4W2YM5Q8QIYXOY40SDRGTW_0.png?1545997611882 HTTP/1.1" 200 -
+45.192.39.225 - - [28/Dec/2018 19:46:51] "GET /static/images/transferred_faces/YGHIFJ11NL4W2YM5Q8QIYXOY40SDRGTW_0.png?1545997611882 HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:22] "GET /static/ HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:22] "GET /static/jquery.min.js HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:22] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:22] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:24] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+101.229.151.180 - - [28/Dec/2018 20:31:24] "GET /static/animator.js HTTP/1.1" 200 -
+61.151.207.252 - - [28/Dec/2018 22:39:30] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D HTTP/1.1" 301 -
+61.151.178.167 - - [28/Dec/2018 22:39:30] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D/ HTTP/1.1" 200 -
+61.129.8.199 - - [28/Dec/2018 22:39:30] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+101.226.225.85 - - [28/Dec/2018 22:39:30] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+61.151.207.252 - - [28/Dec/2018 22:39:38] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D HTTP/1.1" 301 -
+61.151.180.39 - - [28/Dec/2018 22:39:39] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D/ HTTP/1.1" 200 -
+61.151.178.168 - - [28/Dec/2018 22:39:39] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+61.151.178.169 - - [28/Dec/2018 22:39:39] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:44] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D/ HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:45] "GET /static/jquery.min.js HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:45] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:45] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:45] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:46] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:46] "GET /static/animator.js HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:48] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:39:48] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:40:02] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D/ HTTP/1.1" 200 -
+101.91.62.65 - - [28/Dec/2018 22:40:29] "GET /static/?nsukey=PIA%2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ52%2FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW%2FmvRAB6FDgz60FjDDl%2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy%2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT%2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD4%2BOP8IXOel1C0ihMA%3D%3D HTTP/1.1" 301 -
+101.226.226.221 - - [28/Dec/2018 22:40:44] "GET /static/?nsukey=PIA2BT1k1xExqjSiOPxWfVFddjPsMKNm2pBpZ522FxLhIrQFbfLu037J0r6qE4XAGOT0WJMJedW2FmvRAB6FDgz60FjDDl2FgH9EBBb0dhP3AQebDJ2nmNHI6hSrXBygy2FbcPR1JxjgkTy69KYAFOK0Q7Y1py6W0sdHJr9jrT2Fe4WRkdV5TTWljbAiMZ9aW41FcluCvwD42BOP8IXOel1C0ihMA3D3D HTTP/1.1" 301 -
+Face cropping inference time cost: 0.381103992462
+.114.87.51.65 - - [28/Dec/2018 22:42:09] "POST /post HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:42:10] "GET /static/images/transferred_faces/A354LHO2TNHCB6B3X00FCJDTH6YQ15VO_0.png?1546008130128 HTTP/1.1" 200 -
+114.87.51.65 - - [28/Dec/2018 22:42:10] "GET /static/images/cropped_faces/A354LHO2TNHCB6B3X00FCJDTH6YQ15VO_0.png?1546008130128 HTTP/1.1" 200 -
+157.230.29.104 - - [28/Dec/2018 23:27:44] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00')
+157.230.29.104 - - [28/Dec/2018 23:27:44] "    c                           " 400 -
+180.167.79.2 - - [29/Dec/2018 10:57:13] code 404, message File not found
+180.167.79.2 - - [29/Dec/2018 10:57:13] "GET /favicon.ico HTTP/1.1" 404 -
+180.167.79.2 - - [29/Dec/2018 12:13:21] "GET /static/jquery.min.js HTTP/1.1" 200 -
+180.167.79.2 - - [29/Dec/2018 12:13:21] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+180.167.79.2 - - [29/Dec/2018 12:13:21] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+180.167.79.2 - - [29/Dec/2018 12:13:21] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 651, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 710, in finish
+    self.wfile.close()
+  File "/usr/lib/python2.7/socket.py", line 279, in close
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+180.167.79.2 - - [29/Dec/2018 12:13:23] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+180.167.79.2 - - [29/Dec/2018 12:13:23] "GET /static/animator.js HTTP/1.1" 200 -
+172.104.92.166 - - [29/Dec/2018 13:02:03] "GET / HTTP/1.1" 200 -
+113.96.223.207 - - [29/Dec/2018 13:57:14] code 501, message Unsupported method ('CONNECT')
+113.96.223.207 - - [29/Dec/2018 13:57:14] "CONNECT xui.ptlogin2.qq.com:443 HTTP/1.1" 501 -
+113.96.223.207 - - [29/Dec/2018 13:57:16] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0e\xe0\x00\x00\x00\x00\x00\x01\x00\x08\x00\x03\x00\x00\x00')
+113.96.223.207 - - [29/Dec/2018 13:57:16] "  ‡          " 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+----------------------------------------
+Exception happened during processing of request from ('180.167.79.2', 34754)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 54926)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 57538)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 39856)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 55798)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 58284)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 52158)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 33188)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 55634)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 42238)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 49730)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 36672)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 47826)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 48802)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 40836)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 49164)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 59872)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 54674)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 52254)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 47798)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 43556)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 58714)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 42338)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 56180)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 56486)
+----------------------------------------
+----------------------------------------
+ExceptioTraceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+223.104.212.198 - - [30/Dec/2018 10:39:22] "GET /static HTTP/1.1" 301 -
+223.104.212.198 - - [30/Dec/2018 10:39:22] "GET / HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:22] "GET /static/ HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:22] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:23] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:24] "GET /static/jquery.min.js HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:25] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:25] "GET /static/animator.js HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:39:25] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 10:39:29] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 10:39:29] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 10:39:29] code 404, message File not found
+47.74.229.37 - - [30/Dec/2018 10:39:29] "GET /favicon.ico HTTP/1.1" 404 -
+47.74.229.37 - - [30/Dec/2018 10:39:31] "GET /static/ HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 10:39:31] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 10:39:31] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+n happened during processing of request from ('185.253.157.115', 44300)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 45526)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 55842)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 38854)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 37008)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 34340)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 48094)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 47248)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 38016)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 58216)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 49718)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 45930)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 35010)
+----------------------------------------
+Face cropping inference time cost: 0.861093997955
+.223.104.212.198 - - [30/Dec/2018 10:40:24] "POST /post HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:40:24] "GET /static/images/cropped_faces/VID5CAYQEGAS9G9DMSUVFUD0ISI3VCSH_0.png?1546137624194 HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 10:40:27] "GET /static/images/transferred_faces/VID5CAYQEGAS9G9DMSUVFUD0ISI3VCSH_0.png?1546137624194 HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:16:56] "GET /static HTTP/1.1" 301 -
+101.227.139.194 - - [30/Dec/2018 11:16:56] "GET /static HTTP/1.0" 301 -
+158.199.142.239 - - [30/Dec/2018 11:16:56] "GET /static HTTP/1.1" 301 -
+61.173.28.116 - - [30/Dec/2018 11:16:56] "GET /static HTTP/1.1" 301 -
+47.74.229.37 - - [30/Dec/2018 11:17:51] "GET /static HTTP/1.1" 301 -
+47.74.229.37 - - [30/Dec/2018 11:17:51] "GET /static/ HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 11:17:52] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 11:17:52] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 11:17:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 11:17:52] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 11:17:56] "GET /static/animator.js HTTP/1.1" 200 -
+47.74.229.37 - - [30/Dec/2018 11:17:56] "GET /static/jquery.min.js HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 11:18:35] "GET /static/ HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 11:18:36] "GET /static/ HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:49] "GET /static/ HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:49] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+Face cropping inference time cost: 0.397092103958
+.223.104.212.198 - - [30/Dec/2018 11:18:56] "POST /post HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:56] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:56] "GET /static/jquery.min.js HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:56] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:57] "GET /static/animator.js HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:18:57] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 11:18:57] "GET /static/images/transferred_faces/QX2YCFDLDT7V26PBE1WJMPO35RCKHAI3_0.png?1546139936579 HTTP/1.1" 200 -
+223.104.212.198 - - [30/Dec/2018 11:18:59] "GET /static/images/cropped_faces/QX2YCFDLDT7V26PBE1WJMPO35RCKHAI3_0.png?1546139936579 HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:19:03] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:19:03] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:19:04] code 404, message File not found
+112.65.178.6 - - [30/Dec/2018 11:19:04] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.36353302002
+.112.65.178.6 - - [30/Dec/2018 11:19:17] "POST /post HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:19:17] "GET /static/images/transferred_faces/K92RQWW6NIDFQWRREAH6W0WPUCBA2NJ7_0.png?1546139957120 HTTP/1.1" 200 -
+112.65.178.6 - - [30/Dec/2018 11:19:17] "GET /static/images/cropped_faces/K92RQWW6NIDFQWRREAH6W0WPUCBA2NJ7_0.png?1546139957120 HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:37] "GET /static HTTP/1.1" 301 -
+61.173.28.116 - - [30/Dec/2018 11:19:37] "GET /static/ HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:37] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:37] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:37] "GET /static/jquery.min.js HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:38] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:39] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:39] "GET /static/animator.js HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:40] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:40] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:19:42] code 404, message File not found
+61.173.28.116 - - [30/Dec/2018 11:19:42] "GET /favicon.ico HTTP/1.1" 404 -
+61.173.28.116 - - [30/Dec/2018 11:20:01] "GET /static/ HTTP/1.1" 200 -
+Face cropping inference time cost: 0.469158887863
+.61.173.28.116 - - [30/Dec/2018 11:20:16] "POST /post HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:20:16] "GET /static/images/transferred_faces/DXMD3KK9DGB69UMW0C2DT1IYB908934D_0.png?1546140016343 HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:20:16] "GET /static/images/cropped_faces/DXMD3KK9DGB69UMW0C2DT1IYB908934D_0.png?1546140016343 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.361140966415
+.61.173.28.116 - - [30/Dec/2018 11:20:36] "POST /post HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:20:37] "GET /static/images/transferred_faces/YVMT8C4KA1TRV0BDICEUMTRCHLLF9CN0_0.png?1546140036903 HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:20:37] "GET /static/images/cropped_faces/YVMT8C4KA1TRV0BDICEUMTRCHLLF9CN0_0.png?1546140036903 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.367156028748
+.61.173.28.116 - - [30/Dec/2018 11:22:46] "POST /post HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:22:46] "GET /static/images/transferred_faces/UCMPH9ICYTJ4R121L4R58GFP31IYDGXE_0.png?1546140166263 HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:22:46] "GET /static/images/cropped_faces/UCMPH9ICYTJ4R121L4R58GFP31IYDGXE_0.png?1546140166263 HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:22:57] "POST /post HTTP/1.1" 200 -
+61.173.28.116 - - [30/Dec/2018 11:22:57] "GET /static/images/combined/UCMPH9ICYTJ4R121L4R58GFP31IYDGXE_0.png?1546140166263 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+61.129.7.254 - - [30/Dec/2018 13:12:42] "GET /static/?nsukey=HYZwz5Vsgp2WUIqHmmnNnExj2FUh7Aif4mO4EI2bsJyPRkCct2BhjM7SlY1bBx2Bht54Ev4AjZSyJBWHORdk6oTMRTnEI8gSOTetM2B45zJTXP0waTpopAVqpgzqe8QZSVPPu3MBrEZknKv2REFgIEyXHYdrTTIJh2FxwyaxgFZgU2FVieamjfivqxOlR02FRj1ib37K4kf64zWzQvbCG0y5WGqaw3D3D HTTP/1.1" 301 -
+61.151.180.39 - - [30/Dec/2018 13:12:42] "GET /static/?nsukey=HYZwz5Vsgp2WUIqHmmnNnExj2FUh7Aif4mO4EI2bsJyPRkCct2BhjM7SlY1bBx2Bht54Ev4AjZSyJBWHORdk6oTMRTnEI8gSOTetM2B45zJTXP0waTpopAVqpgzqe8QZSVPPu3MBrEZknKv2REFgIEyXHYdrTTIJh2FxwyaxgFZgU2FVieamjfivqxOlR02FRj1ib37K4kf64zWzQvbCG0y5WGqaw3D3D/ HTTP/1.1" 200 -
+61.151.178.176 - - [30/Dec/2018 13:12:42] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+61.129.7.217 - - [30/Dec/2018 13:12:42] "GET /static/animator.js HTTP/1.1" 200 -
+101.226.225.59 - - [30/Dec/2018 13:12:42] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+61.151.178.180 - - [30/Dec/2018 13:12:42] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+61.151.178.180 - - [30/Dec/2018 13:12:42] "GET /static/jquery.min.js HTTP/1.1" 200 -
+61.151.178.167 - - [30/Dec/2018 13:12:42] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+61.129.8.203 - - [30/Dec/2018 13:12:45] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+61.129.8.199 - - [30/Dec/2018 13:12:45] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:47] "GET /static/ HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:47] "GET /static/jquery.min.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:47] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:47] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:48] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:49] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:49] "GET /static/animator.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:51] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:51] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+183.3.226.234 - - [30/Dec/2018 13:12:51] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D HTTP/1.1" 301 -
+14.116.137.170 - - [30/Dec/2018 13:12:51] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D/ HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 13:12:51] code 404, message File not found
+42.102.139.58 - - [30/Dec/2018 13:12:51] "GET /favicon.ico HTTP/1.1" 404 -
+183.3.227.100 - - [30/Dec/2018 13:12:51] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+14.116.133.170 - - [30/Dec/2018 13:12:51] "GET /static/jquery.min.js HTTP/1.1" 200 -
+14.116.133.171 - - [30/Dec/2018 13:12:51] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+14.116.137.167 - - [30/Dec/2018 13:12:51] "GET /static/animator.js HTTP/1.1" 200 -
+14.116.133.168 - - [30/Dec/2018 13:12:51] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+183.3.255.35 - - [30/Dec/2018 13:12:53] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+61.151.178.168 - - [30/Dec/2018 13:12:53] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D HTTP/1.1" 301 -
+113.96.231.120 - - [30/Dec/2018 13:12:53] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D HTTP/1.1" 301 -
+113.96.219.247 - - [30/Dec/2018 13:12:54] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D/ HTTP/1.1" 200 -
+61.151.178.179 - - [30/Dec/2018 13:12:54] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D/ HTTP/1.1" 200 -
+14.116.133.168 - - [30/Dec/2018 13:12:54] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+183.36.112.205 - - [30/Dec/2018 13:12:54] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+61.151.178.170 - - [30/Dec/2018 13:12:56] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+61.151.178.179 - - [30/Dec/2018 13:12:56] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+101.226.225.59 - - [30/Dec/2018 13:12:56] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D HTTP/1.1" 301 -
+183.36.112.205 - - [30/Dec/2018 13:12:56] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+183.3.234.52 - - [30/Dec/2018 13:12:56] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+61.129.8.250 - - [30/Dec/2018 13:12:56] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt52FJzYT8E42FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm2FlGm65BMbNyeIO8xPqXwzK3yM52F1Hic74agbqrC2RSrhDzdmB7rNc83D/ HTTP/1.1" 200 -
+61.129.7.254 - - [30/Dec/2018 13:12:56] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+61.129.8.203 - - [30/Dec/2018 13:12:56] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+14.116.137.167 - - [30/Dec/2018 13:12:57] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+183.3.255.35 - - [30/Dec/2018 13:12:57] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+61.129.8.179 - - [30/Dec/2018 13:13:41] "GET /static/?nsukey=HYZwz5Vsgp2WUIqHmmnNnExj%2FUh7Aif4mO4EI2bsJyPRkCct%2BhjM7SlY1bBx%2Bht54Ev4AjZSyJBWHORdk6oTMRTnEI8gSOTetM%2B45zJTXP0waTpopAVqpgzqe8QZSVPPu3MBrEZknKv2REFgIEyXHYdrTTIJh%2FxwyaxgFZgU%2FVieamjfivqxOlR0%2FRj1ib37K4kf64zWzQvbCG0y5WGqaw%3D%3D HTTP/1.1" 301 -
+101.89.239.230 - - [30/Dec/2018 13:13:51] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt5%2FJzYT8E4%2FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A%2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm%2FlGm65BMbNyeIO8xPqXwzK3yM5%2F1Hic74agbqrC2RSrhDzdmB7rNc8%3D HTTP/1.1" 301 -
+61.151.178.175 - - [30/Dec/2018 13:13:52] "GET /static/?nsukey=F7LUpFufEstzIgihs3wlwt5%2FJzYT8E4%2FPLUyVheWvLPZe6eYpbfoiwO3gpwYy6zZlc0A%2BqhMLL0acGgw277d5iELGqQV3c6doX9iQcwtc9pR8QmSpPyBm%2FlGm65BMbNyeIO8xPqXwzK3yM5%2F1Hic74agbqrC2RSrhDzdmB7rNc8%3D HTTP/1.1" 301 -
+TODO: do action for register download for id: UCMPH9ICYTJ4R121L4R58GFP31IYDGXE and subid: 0
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 51522)
+----------------------------------------
+Face cropping inference time cost: 0.383137226105
+.158.199.142.239 - - [30/Dec/2018 13:16:52] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:16:52] "GET /static/images/cropped_faces/WNQ7SGALD3CD9UK2A0GVH1KVTKAOUQ3I_0.png?1546147012520 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:16:52] "GET /static/images/transferred_faces/WNQ7SGALD3CD9UK2A0GVH1KVTKAOUQ3I_0.png?1546147012520 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.365738868713
+.158.199.142.239 - - [30/Dec/2018 13:22:28] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:22:28] "GET /static/images/cropped_faces/O6AKO15RPXS9AF60B1VCBR9TQ06KGWP6_0.png?1546147348668 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:22:29] "GET /static/images/transferred_faces/O6AKO15RPXS9AF60B1VCBR9TQ06KGWP6_0.png?1546147348668 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.36699795723
+.158.199.142.239 - - [30/Dec/2018 13:23:24] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:23:25] "GET /static/images/transferred_faces/IHMKWVJ7OCH7QWW8R2JYYREOIQTPW96J_0.png?1546147405015 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:23:25] "GET /static/images/cropped_faces/IHMKWVJ7OCH7QWW8R2JYYREOIQTPW96J_0.png?1546147405015 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:23:29] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:23:29] "GET /static/images/transferred_faces/IHMKWVJ7OCH7QWW8R2JYYREOIQTPW96J_0.png?1546147409217 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:23:29] "GET /static/images/cropped_faces/IHMKWVJ7OCH7QWW8R2JYYREOIQTPW96J_0.png?1546147409217 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.378541946411
+.Face cropping inference time cost: 0.362854003906
+.158.199.142.239 - - [30/Dec/2018 13:24:27] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:24:27] "GET /static/images/cropped_faces/PT7H3E0ESX0GK9LKQF00ULC55JCKJOI6_0.png?1546147467278 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:24:31] "GET /static/images/transferred_faces/PT7H3E0ESX0GK9LKQF00ULC55JCKJOI6_0.png?1546147467278 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:24:33] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:24:34] "GET /static/images/transferred_faces/PT7H3E0ESX0GK9LKQF00ULC55JCKJOI6_0.png?1546147473829 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.376791954041
+.158.199.142.239 - - [30/Dec/2018 13:24:34] "GET /static/images/cropped_faces/PT7H3E0ESX0GK9LKQF00ULC55JCKJOI6_0.png?1546147473829 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:26:14] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:26:14] "GET /static/images/cropped_faces/PT7H3E0ESX0GK9LKQF00ULC55JCKJOI6_0.png?1546147574577 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.360186100006
+.158.199.142.239 - - [30/Dec/2018 13:26:20] "GET /static/images/transferred_faces/PT7H3E0ESX0GK9LKQF00ULC55JCKJOI6_0.png?1546147574577 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.357172966003
+.158.199.142.239 - - [30/Dec/2018 13:26:26] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:26:26] "GET /static/images/transferred_faces/IA4E2QME6EIV9HE8JXP4BR3UU4QXS96I_0.png?1546147586524 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:26:26] "GET /static/images/cropped_faces/IA4E2QME6EIV9HE8JXP4BR3UU4QXS96I_0.png?1546147586524 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.357558012009
+.158.199.142.239 - - [30/Dec/2018 13:27:14] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:27:14] "GET /static/images/cropped_faces/VX8D15R1O8SIOQLV8BP8K57KX9SX3O8U_0.png?1546147634700 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:27:15] "GET /static/images/transferred_faces/VX8D15R1O8SIOQLV8BP8K57KX9SX3O8U_0.png?1546147634700 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.366558074951
+.158.199.142.239 - - [30/Dec/2018 13:27:48] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:27:48] "GET /static/images/transferred_faces/OYYW7VGPRPAX03TAOAIJ0VMPNE3JF4RI_0.png?1546147668685 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:27:49] "GET /static/images/cropped_faces/OYYW7VGPRPAX03TAOAIJ0VMPNE3JF4RI_0.png?1546147668685 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.352205991745
+.158.199.142.239 - - [30/Dec/2018 13:29:02] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:29:02] "GET /static/images/cropped_faces/K8AI1DCODQNMXY0AQJ9SJNL7G9I5W5X3_0.png?1546147742692 HTTP/1.1" 200 -
+158.199.142.239 - - [30/Dec/2018 13:29:02] "GET /static/images/transferred_faces/K8AI1DCODQNMXY0AQJ9SJNL7G9I5W5X3_0.png?1546147742692 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+151.217.177.130 - - [30/Dec/2018 15:29:03] "GET / HTTP/1.1" 200 -
+139.162.79.87 - - [30/Dec/2018 15:48:51] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+42.102.139.58 - - [30/Dec/2018 16:48:01] "GET /static/ HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:01] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:02] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:02] "GET /static/jquery.min.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:02] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:04] "GET /static/animator.js HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:05] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:05] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+42.102.139.58 - - [30/Dec/2018 16:48:05] code 404, message File not found
+42.102.139.58 - - [30/Dec/2018 16:48:05] "GET /favicon.ico HTTP/1.1" 404 -
+/root/venv/local/lib/python2.7/site-packages/cryptography/hazmat/primitives/constant_time.py:26: CryptographyDeprecationWarning: Support for your Python version is deprecated. The next version of cryptography will remove support. Please upgrade to a 2.7.x release that supports hmac.compare_digest as soon as possible.
+  utils.DeprecatedIn23,
+2019-01-05 10:34:54.482091: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+ERROR:tensorflow:Cannot parse hostport 
+180.175.160.106 - - [05/Jan/2019 10:34:56] "GET /static/ HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 10:34:56] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 10:34:58] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 10:34:58] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 10:34:59] code 404, message File not found
+180.175.160.106 - - [05/Jan/2019 10:34:59] "GET /favicon.ico HTTP/1.1" 404 -
+180.175.160.106 - - [05/Jan/2019 10:43:21] "GET /static/ HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 108, in do_POST
+    input_image_path = interface_utils.save_encoded_image(bin1, './static/images/inputs/' + id_str)
+  File "/root/tron/TronIdol/TwinGAN/interface/interface_utils.py", line 36, in save_encoded_image
+    encoded = base64.b64decode(encoded.encode())
+  File "/usr/lib/python2.7/base64.py", line 76, in b64decode
+    raise TypeError(msg)
+TypeError: Incorrect padding
+158.199.142.239 - - [05/Jan/2019 10:46:05] "GET /static/ HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:05] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:05] "GET /static/jquery.min.js HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:06] "GET /static/animator.js HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:06] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:07] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+172.104.92.166 - - [05/Jan/2019 10:46:08] "GET / HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:09] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:40] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:46:41] code 404, message File not found
+158.199.142.239 - - [05/Jan/2019 10:46:41] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-05 10:49:08.407071: W tensorflow/core/framework/allocator.cc:122] Allocation of 12068220 exceeds 10% of system memory.
+2019-01-05 10:49:08.421841: W tensorflow/core/framework/allocator.cc:122] Allocation of 12068220 exceeds 10% of system memory.
+2019-01-05 10:49:08.460188: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2019-01-05 10:49:08.492650: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2019-01-05 10:49:08.518246: W tensorflow/core/framework/allocator.cc:122] Allocation of 16777216 exceeds 10% of system memory.
+/usr/lib/python2.7/dist-packages/scipy/misc/pilutil.py:413: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if issubdtype(ts,int):
+/usr/lib/python2.7/dist-packages/scipy/misc/pilutil.py:415: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  elif issubdtype(type(size),float):
+/root/venv/local/lib/python2.7/site-packages/tensorflow_serving/apis/prediction_service_pb2.py:131: DeprecationWarning: beta_create_PredictionService_stub() method is deprecated. This method will be removed in near future versions of TF Serving. Please switch to GA gRPC API in prediction_service_pb2_grpc.
+  'prediction_service_pb2_grpc.', DeprecationWarning)
+GPU: -1
+serving at  : 8000
+----------------------------------------
+Exception happened during processing of request from ('180.175.160.106', 14308)
+----------------------------------------
+Face cropping inference time cost: 1.45252799988
+.158.199.142.239 - - [05/Jan/2019 10:49:14] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:49:15] "GET /static/images/transferred_faces/EXB23NPDG3FJ2IMXHFJOMP79F8A1HTU6_0.png?1546656554695 HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 10:49:15] "GET /static/images/cropped_faces/EXB23NPDG3FJ2IMXHFJOMP79F8A1HTU6_0.png?1546656554695 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+218.1.50.146 - - [05/Jan/2019 17:35:30] "GET / HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:31] code 404, message File not found
+218.1.50.146 - - [05/Jan/2019 17:35:31] "GET /favicon.ico HTTP/1.1" 404 -
+218.1.50.146 - - [05/Jan/2019 17:35:49] "GET /static/ HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:50] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:50] "GET /static/jquery.min.js HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:50] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:52] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:52] "GET /static/animator.js HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:54] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:35:54] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 35962)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 60504)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 39910)
+----------------------------------------
+Face cropping inference time cost: 0.368697881699
+.218.1.50.146 - - [05/Jan/2019 17:36:19] "POST /post HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:36:19] "GET /static/images/transferred_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546680980945 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:36:19] "GET /static/images/cropped_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546680980945 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:40:53] "POST /post HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:40:53] "GET /static/images/transferred_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681255695 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:40:54] "GET /static/images/cropped_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681255695 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.361680030823
+.218.1.50.146 - - [05/Jan/2019 17:40:58] "POST /post HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:40:58] "GET /static/images/transferred_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681260652 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:40:58] "GET /static/images/cropped_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681260652 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.378052949905
+.218.1.50.146 - - [05/Jan/2019 17:41:11] "POST /post HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:41:11] "GET /static/images/transferred_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681273420 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:41:11] "GET /static/images/cropped_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681273420 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.364917039871
+.218.1.50.146 - - [05/Jan/2019 17:41:17] "POST /post HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:41:17] "GET /static/images/transferred_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681279045 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:41:17] "GET /static/images/cropped_faces/SPH4BHD24YUFQOSMRJ5AE33XQ2VCXXG7_0.png?1546681279045 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.378410100937
+.218.1.50.146 - - [05/Jan/2019 17:41:19] "GET /static/ HTTP/1.1" 200 -
+Face cropping inference time cost: 0.367990970612
+.218.1.50.146 - - [05/Jan/2019 17:41:30] "POST /post HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:41:30] "GET /static/images/transferred_faces/AR755GMJSJBN6F42SI54SMK99P2KG4SL_0.png?1546681292524 HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 17:41:30] "GET /static/images/cropped_faces/AR755GMJSJBN6F42SI54SMK99P2KG4SL_0.png?1546681292524 HTTP/1.1" 200 -
+101.227.139.171 - - [05/Jan/2019 17:44:01] "GET /static/ HTTP/1.0" 200 -
+47.74.229.37 - - [05/Jan/2019 17:44:23] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+47.74.229.37 - - [05/Jan/2019 17:44:23] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+47.74.229.37 - - [05/Jan/2019 17:44:25] code 404, message File not found
+47.74.229.37 - - [05/Jan/2019 17:44:25] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.372804880142
+.47.74.229.37 - - [05/Jan/2019 17:44:45] "POST /post HTTP/1.1" 200 -
+47.74.229.37 - - [05/Jan/2019 17:44:46] "GET /static/images/transferred_faces/E522CXENS18L0VEHO3KSA8J2XB1CCD92_0.png?1546681484387 HTTP/1.1" 200 -
+47.74.229.37 - - [05/Jan/2019 17:44:46] "GET /static/images/cropped_faces/E522CXENS18L0VEHO3KSA8J2XB1CCD92_0.png?1546681484387 HTTP/1.1" 200 -
+58.247.206.139 - - [05/Jan/2019 17:45:01] "GET /static HTTP/1.1" 301 -
+61.151.178.176 - - [05/Jan/2019 17:45:04] "GET /static/?nsukey=IvTa71Phi0QvN0r9OQeogJpg5hU3KRBBxa2BWBq2BvmtyJumhEZfxASu1tFdMlacxs2BnRoOE9LA53Z2BajcvbMlVwsxZ6pfdpbzzJsccjm2B9zFqDMuUiZgr2BizBsvyFCLxhaxjmRRZAkgzvqErWF7BV5Zc7ngn4JM2FN89gzh3KIU6Ix66uAAGO2wxL1JAC4ZrgNeLhhgAqM7SH2BR7weF412Bfw3D3D HTTP/1.1" 301 -
+61.151.207.252 - - [05/Jan/2019 17:45:04] "GET /static/?nsukey=IvTa71Phi0QvN0r9OQeogJpg5hU3KRBBxa2BWBq2BvmtyJumhEZfxASu1tFdMlacxs2BnRoOE9LA53Z2BajcvbMlVwsxZ6pfdpbzzJsccjm2B9zFqDMuUiZgr2BizBsvyFCLxhaxjmRRZAkgzvqErWF7BV5Zc7ngn4JM2FN89gzh3KIU6Ix66uAAGO2wxL1JAC4ZrgNeLhhgAqM7SH2BR7weF412Bfw3D3D/ HTTP/1.1" 200 -
+61.151.178.168 - - [05/Jan/2019 17:45:04] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+61.129.8.203 - - [05/Jan/2019 17:45:04] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+61.151.178.176 - - [05/Jan/2019 17:45:04] "GET /static/jquery.min.js HTTP/1.1" 200 -
+61.129.8.203 - - [05/Jan/2019 17:45:05] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+61.151.178.169 - - [05/Jan/2019 17:45:05] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+61.151.178.171 - - [05/Jan/2019 17:45:07] "GET /static/animator.js HTTP/1.1" 200 -
+61.151.179.27 - - [05/Jan/2019 17:45:08] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+61.129.7.254 - - [05/Jan/2019 17:45:08] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+101.89.239.120 - - [05/Jan/2019 17:46:00] "GET /static/?nsukey=IvTa71Phi0QvN0r9OQeogJpg5hU3KRBBxa%2BWBq%2BvmtyJumhEZfxASu1tFdMlacxs%2BnRoOE9LA53Z%2BajcvbMlVwsxZ6pfdpbzzJsccjm%2B9zFqDMuUiZgr%2BizBsvyFCLxhaxjmRRZAkgzvqErWF7BV5Zc7ngn4JM%2FN89gzh3KIU6Ix66uAAGO2wxL1JAC4ZrgNeLhhgAqM7SH%2BR7weF41%2Bfw%3D%3D HTTP/1.1" 301 -
+61.151.207.205 - - [05/Jan/2019 17:46:04] "GET /static/?nsukey=IvTa71Phi0QvN0r9OQeogJpg5hU3KRBBxa%2BWBq%2BvmtyJumhEZfxASu1tFdMlacxs%2BnRoOE9LA53Z%2BajcvbMlVwsxZ6pfdpbzzJsccjm%2B9zFqDMuUiZgr%2BizBsvyFCLxhaxjmRRZAkgzvqErWF7BV5Zc7ngn4JM%2FN89gzh3KIU6Ix66uAAGO2wxL1JAC4ZrgNeLhhgAqM7SH%2BR7weF41%2Bfw%3D%3D HTTP/1.1" 301 -
+61.173.84.71 - - [05/Jan/2019 18:01:34] code 404, message File not found
+61.173.84.71 - - [05/Jan/2019 18:01:34] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.380203962326
+.158.199.142.239 - - [05/Jan/2019 18:05:58] "POST /post HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 18:05:58] "GET /static/images/transferred_faces/AED8KX47QQ1II70FICSQ9NWDE2FW5CYS_0.png?1546682757339 HTTP/1.1" 200 -
+158.199.142.239 - - [05/Jan/2019 18:05:58] "GET /static/images/cropped_faces/AED8KX47QQ1II70FICSQ9NWDE2FW5CYS_0.png?1546682757339 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+101.227.139.171 - - [05/Jan/2019 18:57:57] "GET /static/ HTTP/1.0" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:49] "GET /static HTTP/1.1" 301 -
+180.175.160.106 - - [05/Jan/2019 20:10:49] "GET /static/ HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:50] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:50] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:50] "GET /static/animator.js HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:50] "GET /static/jquery.min.js HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:50] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:50] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:53] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:53] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+180.175.160.106 - - [05/Jan/2019 20:10:54] code 404, message File not found
+180.175.160.106 - - [05/Jan/2019 20:10:54] "GET /favicon.ico HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+218.1.50.146 - - [05/Jan/2019 22:52:11] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+218.1.50.146 - - [05/Jan/2019 22:52:11] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+121.221.132.73 - - [06/Jan/2019 00:31:48] "GET / HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+198.108.67.48 - - [06/Jan/2019 06:07:26] "GET / HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+218.1.50.146 - - [06/Jan/2019 08:26:14] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+218.1.50.146 - - [06/Jan/2019 08:26:14] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+/root/venv/local/lib/python2.7/site-packages/cryptography/hazmat/primitives/constant_time.py:26: CryptographyDeprecationWarning: Support for your Python version is deprecated. The next version of cryptography will remove support. Please upgrade to a 2.7.x release that supports hmac.compare_digest as soon as possible.
+  utils.DeprecatedIn23,
+2019-01-07 16:00:43.025428: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+ERROR:tensorflow:Cannot parse hostport 
+2019-01-07 16:00:48.909143: W tensorflow/core/framework/allocator.cc:122] Allocation of 12000000 exceeds 10% of system memory.
+2019-01-07 16:00:48.922669: W tensorflow/core/framework/allocator.cc:122] Allocation of 12000000 exceeds 10% of system memory.
+2019-01-07 16:00:48.945853: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2019-01-07 16:00:48.973271: W tensorflow/core/framework/allocator.cc:122] Allocation of 8388608 exceeds 10% of system memory.
+2019-01-07 16:00:48.998941: W tensorflow/core/framework/allocator.cc:122] Allocation of 16777216 exceeds 10% of system memory.
+/usr/lib/python2.7/dist-packages/scipy/misc/pilutil.py:413: FutureWarning: Conversion of the second argument of issubdtype from `int` to `np.signedinteger` is deprecated. In future, it will be treated as `np.int64 == np.dtype(int).type`.
+  if issubdtype(ts,int):
+/usr/lib/python2.7/dist-packages/scipy/misc/pilutil.py:415: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  elif issubdtype(type(size),float):
+/root/venv/local/lib/python2.7/site-packages/tensorflow_serving/apis/prediction_service_pb2.py:131: DeprecationWarning: beta_create_PredictionService_stub() method is deprecated. This method will be removed in near future versions of TF Serving. Please switch to GA gRPC API in prediction_service_pb2_grpc.
+  'prediction_service_pb2_grpc.', DeprecationWarning)
+GPU: -1
+serving at  : 8000
+Face cropping inference time cost: 1.39402318001
+.180.155.22.226 - - [07/Jan/2019 16:00:56] "POST /post HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:00:56] "GET /static/images/cropped_faces/DTQ518R4UYIU99JGM3BB3NBNTBBFAOUL_0.png?1546848055655 HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:00:59] "GET /static/images/transferred_faces/DTQ518R4UYIU99JGM3BB3NBNTBBFAOUL_0.png?1546848055655 HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:01:02] "GET /static/ HTTP/1.1" 200 -
+Face cropping inference time cost: 0.377233028412
+.180.155.22.226 - - [07/Jan/2019 16:01:15] "POST /post HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:01:15] "GET /static/images/transferred_faces/KLM72V53S02WY6SQQTP9LDBH3X6PE7AS_0.png?1546848074560 HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:01:15] "GET /static/images/cropped_faces/KLM72V53S02WY6SQQTP9LDBH3X6PE7AS_0.png?1546848074560 HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:37] "GET /static HTTP/1.1" 301 -
+116.226.159.211 - - [07/Jan/2019 16:01:37] "GET /static/ HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:38] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:38] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:38] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:40] "GET /static/jquery.min.js HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:40] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:40] "GET /static/animator.js HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:43] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:43] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 16:01:43] code 404, message File not found
+116.226.159.211 - - [07/Jan/2019 16:01:43] "GET /favicon.ico HTTP/1.1" 404 -
+180.155.22.226 - - [07/Jan/2019 16:03:04] "GET /static HTTP/1.1" 301 -
+180.155.22.226 - - [07/Jan/2019 16:03:05] "GET /static/ HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:05] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:05] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:05] "GET /static/jquery.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:06] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:08] "GET /static/animator.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:08] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:09] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:09] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+Face cropping inference time cost: 0.366641998291
+.180.155.22.226 - - [07/Jan/2019 16:03:34] "POST /post HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:34] "GET /static/images/transferred_faces/P75TDHGKHPQ2BI5QMB1MYVMKOACKXJLP_0.png?1546848214038 HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 16:03:34] "GET /static/images/cropped_faces/P75TDHGKHPQ2BI5QMB1MYVMKOACKXJLP_0.png?1546848214038 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+180.155.22.226 - - [07/Jan/2019 17:50:31] "GET / HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:33] code 404, message File not found
+180.155.22.226 - - [07/Jan/2019 17:50:33] "GET /favicon.ico HTTP/1.1" 404 -
+180.155.22.226 - - [07/Jan/2019 17:50:34] "GET /static/ HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:34] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:35] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:35] "GET /static/jquery.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:35] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:37] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:37] "GET /static/animator.js HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:38] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:38] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 40438)
+----------------------------------------
+Face cropping inference time cost: 0.373438119888
+.180.155.22.226 - - [07/Jan/2019 17:50:51] "POST /post HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:51] "GET /static/images/transferred_faces/V7EUNBVP6L1HC7B7NMU3TADGHNMYACQL_0.png?1546854651931 HTTP/1.1" 200 -
+180.155.22.226 - - [07/Jan/2019 17:50:51] "GET /static/images/cropped_faces/V7EUNBVP6L1HC7B7NMU3TADGHNMYACQL_0.png?1546854651931 HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 18:36:12] "GET / HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 18:36:13] code 404, message File not found
+116.226.159.211 - - [07/Jan/2019 18:36:13] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.370634078979
+.116.226.159.211 - - [07/Jan/2019 18:36:32] "POST /post HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 18:36:32] "GET /static/images/cropped_faces/KY6EASFGO5XGJQJ1KKKJ5EGSYL6GFXHK_0.png?1546857392294 HTTP/1.1" 200 -
+116.226.159.211 - - [07/Jan/2019 18:36:32] "GET /static/images/transferred_faces/KY6EASFGO5XGJQJ1KKKJ5EGSYL6GFXHK_0.png?1546857392294 HTTP/1.1" 200 -
+106.120.35.120 - - [07/Jan/2019 18:44:38] code 400, message Bad request syntax ('vkvdnymopazypjpkbrzkqvedyikdwmisyevocjctleuanjlqbmctkiwisiloxvgvzdjemozxstyhdlzgzdzjlxtdigthcccdfojuejtyerfhegpejqpuojzypuftwjzeziydtrbylihroxvzpntfwudnpkjlukrvupzojcownxndwldmyyrv')
+106.120.35.120 - - [07/Jan/2019 18:44:38] "vkvdnymopazypjpkbrzkqvedyikdwmisyevocjctleuanjlqbmctkiwisiloxvgvzdjemozxstyhdlzgzdzjlxtdigthcccdfojuejtyerfhegpejqpuojzypuftwjzeziydtrbylihroxvzpntfwudnpkjlukrvupzojcownxndwldmyyrv" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+119.28.187.79 - - [07/Jan/2019 20:16:23] "GET / HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:16:24] code 404, message File not found
+119.28.187.79 - - [07/Jan/2019 20:16:24] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 39412)
+----------------------------------------
+Face cropping inference time cost: 0.365407943726
+.119.28.187.79 - - [07/Jan/2019 20:17:32] "POST /post HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:17:32] "GET /static/images/transferred_faces/CX9OR215DKXLPN38A92Y0LX8AU11U82B_0.png?1546863452317 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:17:32] "GET /static/images/cropped_faces/CX9OR215DKXLPN38A92Y0LX8AU11U82B_0.png?1546863452317 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:18:13] "GET /static/images/transferred_faces/CX9OR215DKXLPN38A92Y0LX8AU11U82B_0.png?1546863452317 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:18:26] "GET / HTTP/1.1" 200 -
+Face cropping inference time cost: 0.375463008881
+.119.28.187.79 - - [07/Jan/2019 20:18:38] "POST /post HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:18:38] "GET /static/images/transferred_faces/OJKX335SUKMLERI1KC89UFUON9JD1MWV_0.png?1546863518870 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:18:39] "GET /static/images/cropped_faces/OJKX335SUKMLERI1KC89UFUON9JD1MWV_0.png?1546863518870 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:19:01] "GET /static/images/transferred_faces/OJKX335SUKMLERI1KC89UFUON9JD1MWV_0.png?1546863518870 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:19:07] "GET /static/images/transferred_faces/CX9OR215DKXLPN38A92Y0LX8AU11U82B_0.png?1546863452317 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:19:14] "GET /static/images/transferred_faces/OJKX335SUKMLERI1KC89UFUON9JD1MWV_0.png?1546863518870 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:21:43] "GET / HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:22:37] "GET /static/images/transferred_faces/OJKX335SUKMLERI1KC89UFUON9JD1MWV_0.png HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:22:44] "GET /static/images/transferred_faces/CX9OR215DKXLPN38A92Y0LX8AU11U82B_0.png HTTP/1.1" 200 -
+Face cropping inference time cost: 0.410267114639
+.119.28.187.79 - - [07/Jan/2019 20:31:17] "POST /post HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:31:17] "GET /static/images/transferred_faces/A5KY513W5KOYI52FGLOE5FDK4C4GIM1L_0.png?1546864277563 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:31:17] "GET /static/images/cropped_faces/A5KY513W5KOYI52FGLOE5FDK4C4GIM1L_0.png?1546864277563 HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:31:52] code 404, message File not found
+119.28.187.79 - - [07/Jan/2019 20:31:52] "GET /static/images/transferred_faces/A5KY513W5KOYI52FGLOE5FDK4C4GIM1L.png HTTP/1.1" 404 -
+119.28.187.79 - - [07/Jan/2019 20:31:59] "GET /static/images/transferred_faces/A5KY513W5KOYI52FGLOE5FDK4C4GIM1L_0.png HTTP/1.1" 200 -
+119.28.187.79 - - [07/Jan/2019 20:32:05] code 404, message File not found
+119.28.187.79 - - [07/Jan/2019 20:32:05] "GET /static/images/transferred_faces/A5KY513W5KOYI52FGLOE5FDK4C4GIM1L_1.png HTTP/1.1" 404 -
+119.28.187.79 - - [07/Jan/2019 20:32:12] "GET /static/images/transferred_faces/A5KY513W5KOYI52FGLOE5FDK4C4GIM1L_0.png HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:01] "GET /static/ HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:01] "GET /static/jquery.min.js HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:01] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:02] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:02] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:02] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:02] "GET /static/animator.js HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:04] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:04] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:12:05] code 404, message File not found
+116.226.34.51 - - [07/Jan/2019 21:12:05] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.362401008606
+.116.226.34.51 - - [07/Jan/2019 21:13:32] "POST /post HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:13:32] "GET /static/images/transferred_faces/F9EEU026VRW6YJDLIFYXESOV5BPX91I0_0.png?1546866811646 HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:13:32] "GET /static/images/cropped_faces/F9EEU026VRW6YJDLIFYXESOV5BPX91I0_0.png?1546866811646 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.397600889206
+.116.226.34.51 - - [07/Jan/2019 21:15:30] "POST /post HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:15:30] "GET /static/images/cropped_faces/RPK5NYKOC02CIGNC52E2M2K439JYXDWG_0.png?1546866930199 HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:15:30] "GET /static/images/transferred_faces/RPK5NYKOC02CIGNC52E2M2K439JYXDWG_0.png?1546866930199 HTTP/1.1" 200 -
+Face cropping inference time cost: 0.354754924774
+.116.226.34.51 - - [07/Jan/2019 21:26:49] "POST /post HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:26:49] "GET /static/images/transferred_faces/R7EC34J1G290EL1RTQB8MYLNCICG3PFA_0.png?1546867609165 HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:26:49] "GET /static/images/cropped_faces/R7EC34J1G290EL1RTQB8MYLNCICG3PFA_0.png?1546867609165 HTTP/1.1" 200 -
+116.226.34.51 - - [07/Jan/2019 21:45:35] "POST /post HTTP/1.1" 400 -
+116.226.34.51 - - [07/Jan/2019 21:48:35] "POST /post HTTP/1.1" 400 -
+116.226.34.51 - - [07/Jan/2019 21:51:14] "POST /post HTTP/1.1" 200 -
+Face cropping inference time cost: 0.357028007507
+.116.226.34.51 - - [07/Jan/2019 21:53:05] code 404, message File not found
+116.226.34.51 - - [07/Jan/2019 21:53:05] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.36479306221
+.116.226.34.51 - - [07/Jan/2019 21:57:31] "POST /post HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+101.227.139.171 - - [07/Jan/2019 21:59:31] code 404, message File not found
+101.227.139.171 - - [07/Jan/2019 21:59:31] "GET /post HTTP/1.0" 404 -
+61.151.178.165 - - [07/Jan/2019 22:00:30] code 404, message File not found
+61.151.178.165 - - [07/Jan/2019 22:00:30] "GET /post HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 57596)
+----------------------------------------
+Face cropping inference time cost: 0.361717939377
+....116.226.34.51 - - [08/Jan/2019 00:11:13] "POST /post HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 40708)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 55664)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 53080)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 37328)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 59914)
+----------------------------------------
+Face cropping inference time cost: 0.389375925064
+.116.226.159.211 - - [08/Jan/2019 11:04:13] "POST /post HTTP/1.1" 200 -
+116.226.159.211 - - [08/Jan/2019 11:07:45] "GET / HTTP/1.1" 200 -
+213.141.155.95 - - [08/Jan/2019 12:00:02] code 400, message Bad HTTP/0.9 request type ('\x00\x00\x00\xe0Z\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x05\x01=K\x00\x00\x00\x014\x01\xa8\xc0(\x92J\x1b\x94n\x0f\x00admni\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x000\x81\x89\x02\x81\x81\x00\xa3\xdf\\\xe59Ku\x18\xdc\xedg^\x81F\x811\xe97\xea\xe5XM\x84\x8a\x1c\x01\xfc\x82\x94\xdaY|\x92\xe45\x99w#\xa2X`\x97\x03\x9e\xdbA\xeb]T\xda\x85\xce\xaf\xd1k\xd67\xe1$H%\x00\xe2\xbf\x9e\xc0\xe5i`c')
+213.141.155.95 - - [08/Jan/2019 12:00:02] "   ‡Z          =K   4®¿(íJîn admni                                           0ÅâÅÅ £ﬂ\Â9Ku‹Ìg^ÅFÅ1È7ÍÂXMÑä¸Çî⁄Y|í‰5ôw#¢X`óû€AÎ]T⁄ÖŒØ—k÷7·$H% ‚øû¿Âi`cyÆ™c+R‚nœÀ|*Û„B«Ô≥≈hﬂ¯b«ã7¨D™ëÎô=tÅuYå…L;" 400 -
+180.155.22.226 - - [08/Jan/2019 12:11:07] "GET /static HTTP/1.1" 301 -
+180.155.22.226 - - [08/Jan/2019 12:11:07] "GET /static/ HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:08] "GET /static/jquery-ui.css HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:08] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:09] "GET /static/jquery-ui.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:15] "GET /static/jquery.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:16] "GET /static/bootstrap/js/bootstrap.min.js HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:16] "GET /static/animator.js HTTP/1.1" 200 -
+101.89.29.86 - - [08/Jan/2019 12:11:16] code 404, message File not found
+101.89.29.86 - - [08/Jan/2019 12:11:16] "GET /post' HTTP/1.1" 404 -
+180.155.22.226 - - [08/Jan/2019 12:11:17] "GET /static/bootstrap/img/glyphicons-halflings-white.png HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:17] "GET /static/bootstrap/img/glyphicons-halflings.png HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:20] code 404, message File not found
+180.155.22.226 - - [08/Jan/2019 12:11:20] "GET /favicon.ico HTTP/1.1" 404 -
+Face cropping inference time cost: 0.385066986084
+.180.155.22.226 - - [08/Jan/2019 12:11:53] "POST /post HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:53] "GET /static/images/transferred_faces/N577LYYVFRIPBWFU6XYYBJT76ASUGHN0_0.png?1546920711704 HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 12:11:54] "GET /static/images/cropped_faces/N577LYYVFRIPBWFU6XYYBJT76ASUGHN0_0.png?1546920711704 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+----------------------------------------
+Exception happened during processing of request from ('180.155.22.226', 13435)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('180.155.22.226', 14126)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('116.226.159.211', 14339)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('116.226.159.211', 14484)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('116.226.159.211', 1220)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('185.253.157.115', 36282)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('180.155.22.226', 7077)
+----------------------------------------
+Face cropping inference time cost: 0.384799003601
+.180.155.22.226 - - [08/Jan/2019 13:26:15] "POST /post HTTP/1.1" 200 -
+Face cropping inference time cost: 0.3821849823
+.180.155.22.226 - - [08/Jan/2019 13:31:11] "POST /post HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+180.155.22.226 - - [08/Jan/2019 13:38:49] code 404, message File not found
+180.155.22.226 - - [08/Jan/2019 13:38:49] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception happened during processing of request from ('116.226.159.211', 8692)
+----------------------------------------
+Face cropping inference time cost: 0.541468143463
+.180.155.22.226 - - [08/Jan/2019 13:39:00] "POST /post HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 13:39:01] "GET /static/images/cropped_faces/FN9JQAW671I5VSFM9OW982UQY2VNRUBR_0.png?1546925938885 HTTP/1.1" 200 -
+180.155.22.226 - - [08/Jan/2019 13:39:01] "GET /static/images/transferred_faces/FN9JQAW671I5VSFM9OW982UQY2VNRUBR_0.png?1546925938885 HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 77, in do_POST
+    form = self.parse_POST()
+  File "server.py", line 63, in parse_POST
+    pdict['boundary'] = str(pdict['boundary']).encode('utf-8')
+KeyError: u'boundary'
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "server.py", line 59, in __init__
+    CGIHTTPServer.CGIHTTPRequestHandler.__init__(self, req, client_addr, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/BaseHTTPServer.py", line 328, in handle_one_request
+    method()
+  File "server.py", line 111, in do_POST
+    faces = FACE_DETECTOR.crop_face_and_save(input_image_path, cropped_image_pattern)
+  File "/root/tron/TronIdol/TwinGAN/interface/face_detection_util.py", line 187, in crop_face_and_save
+    cropped = self.crop_face(image_path)
+  File "/root/tron/TronIdol/TwinGAN/interface/face_detection_util.py", line 154, in crop_face
+    (image_np, boxes, scores, classes, num_detections) = self._helper(image_path, image_np=image_np)
+  File "/root/tron/TronIdol/TwinGAN/interface/face_detection_util.py", line 125, in _helper
+    image_np = util_io.imread(image_path)
+  File "/root/tron/TronIdol/TwinGAN/util_io.py", line 116, in imread
+    return np.asarray(Image.open(path).convert(convert_format), dtype)
+  File "/usr/lib/python2.7/dist-packages/PIL/Image.py", line 713, in convert
+    self.load()
+  File "/usr/lib/python2.7/dist-packages/PIL/ImageFile.py", line 234, in load
+    raise_ioerror(e)
+  File "/usr/lib/python2.7/dist-packages/PIL/ImageFile.py", line 56, in raise_ioerror
+    raise IOError(message + " when reading image file")
+IOError: broken data stream when reading image file
+180.155.22.226 - - [08/Jan/2019 14:43:50] "POST /post HTTP/1.1" 400 -
+2019-01-08 15:32:38.248961: I tensorflow_serving/model_servers/server.cc:82] Building single TensorFlow model file config:  model_name: test model_base_path: /root/tron/TronIdol/twingan_256_export/export/
+2019-01-08 15:32:38.249153: I tensorflow_serving/model_servers/server_core.cc:461] Adding/updating models.
+2019-01-08 15:32:38.249167: I tensorflow_serving/model_servers/server_core.cc:558]  (Re-)adding model: test
+2019-01-08 15:32:38.249774: I tensorflow_serving/core/basic_manager.cc:739] Successfully reserved resources to load servable {name: test version: 1528120667}
+2019-01-08 15:32:38.249792: I tensorflow_serving/core/loader_harness.cc:66] Approving load for servable version {name: test version: 1528120667}
+2019-01-08 15:32:38.249800: I tensorflow_serving/core/loader_harness.cc:74] Loading servable version {name: test version: 1528120667}
+2019-01-08 15:32:38.249814: I external/org_tensorflow/tensorflow/contrib/session_bundle/bundle_shim.cc:363] Attempting to load native SavedModelBundle in bundle-shim from: /root/tron/TronIdol/twingan_256_export/export/1528120667
+2019-01-08 15:32:38.249825: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:31] Reading SavedModel from: /root/tron/TronIdol/twingan_256_export/export/1528120667
+2019-01-08 15:32:38.331913: I external/org_tensorflow/tensorflow/cc/saved_model/reader.cc:54] Reading meta graph with tags { serve }
+2019-01-08 15:32:38.481545: I external/org_tensorflow/tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-01-08 15:32:38.969569: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:162] Restoring SavedModel bundle.
+2019-01-08 15:32:39.452748: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:138] Running MainOp with key legacy_init_op on SavedModel bundle.
+2019-01-08 15:32:39.769449: I external/org_tensorflow/tensorflow/cc/saved_model/loader.cc:259] SavedModel load for tags { serve }; Status: success. Took 1519585 microseconds.
+2019-01-08 15:32:39.769552: I tensorflow_serving/servables/tensorflow/saved_model_warmup.cc:83] No warmup data file found at /root/tron/TronIdol/twingan_256_export/export/1528120667/assets.extra/tf_serving_warmup_requests
+2019-01-08 15:32:39.769689: I tensorflow_serving/core/loader_harness.cc:86] Successfully loaded servable version {name: test version: 1528120667}
+2019-01-08 15:32:39.773198: I tensorflow_serving/model_servers/server.cc:286] Running gRPC ModelServer at 0.0.0.0:9000 ...

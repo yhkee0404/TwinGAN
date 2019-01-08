@@ -26,11 +26,19 @@ import numpy as np
 import scipy.misc
 import tensorflow as tf
 
-import util_io
+'''
 from interface import face_detection_util
 from interface import interface_utils
 from interface import twingan_client
 from interface import waifu2x_interface
+'''
+import sys
+sys.path.insert(0, '/root/tron/TronIdol/TwinGAN/')
+import face_detection_util
+import interface_utils
+import twingan_client
+import waifu2x_interface
+import  util_io
 
 tf.flags.DEFINE_integer('gpu', -1,
                         'GPU ID (negative value indicates CPU)')
@@ -163,6 +171,9 @@ class MyHandler(CGIHTTPServer.CGIHTTPRequestHandler):
     self.send_response(200)
     self.send_header('Content-type', 'application/json')
     self.send_header('Content-Length', len(content))
+    self.send_header('Access-Control-Allow-Origin','*')
+    self.send_header('Access-Control-Allow-Methods', 'OPTIONS,HEAD,GET,POST')
+    self.send_header('Access-Control-Allow-Headers', 'x-requested-with')
     self.end_headers()
     self.wfile.write(content)
 

@@ -1,7 +1,7 @@
 // Borrowed a bunch of code from anb early version of the paintschainer web interface.
 // This javascript file is meant to be a minimal working version.
 
-// $(function () {
+ $(function () {
   page_url = new URL(window.location.href);
   MAX_NUM_FACES = 4;
   IMAGE_HW = parseInt(page_url.searchParams.get("image_hw")) || 128;
@@ -10,7 +10,7 @@
 
 
   $("#painting_label").hide();
-  $("#submit").prop("disabled", true);
+//  $("#submit").prop("disabled", true);
 
   $("#submit").click(function () {
     if (!$("#background").attr("src")) {
@@ -246,6 +246,6 @@
   };
 
 
-// });
+});
 
 

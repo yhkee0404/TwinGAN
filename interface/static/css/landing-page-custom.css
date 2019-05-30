@@ -1,0 +1,169 @@
+#first_select_box{
+	display:inline-block;
+}
+#second_select_box{
+	display:inline-block;
+}
+.custom-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.selector_name{
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+.middle-box{
+	width:30rem;
+}
+.transfer-table{
+	position:absolute;
+	left:10rem;
+}
+.transfer-section{
+	background-color:green;
+	height:10rem;
+}
+.table-section{
+	height:20rem;
+}
+.tranferBtn-box{
+    text-align: center;
+
+}
+.transferBtn {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.transferBtn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+    
+.transferBtn:focus {
+    outline: none;
+}
+
+
+
+/*Navigation Bar*/
+.navbar{
+    padding-bottom:4.5rem;
+}
+
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:3.5rem;
+    font-weight:bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: "Montserrt-Light";
+    font-size: 1.2rem;
+}
+
+/*testimoial*/
+.carousel-item h2{
+    color:black;
+}
+.carousel-item{
+    padding: 7% 15%;
+    height:500px;
+}
+
+.testimonial-image{
+    width:80%;
+    height:110%;
+    margin: 0 20px 20px 20px;
+}
+#testimonials{
+    text-align: center;
+    color:#fff;
+    padding-bottom: 30px;
+}
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+
+/*press*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.press-logo{
+    width:15%;
+    margin: 20px 20px 15px;
+}
+
+/*transfer output*/
+.output-container{
+    place-items: end center;
+}
+.outputImg{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.model-img{
+    width:250px;
+    height:250px;
+}
+.content-select{
+    padding-top: 20px;
+}
+
+/*footer*/
+.footer-padding {
+    padding-bottom: 60px;
+   	width: 100%;
+    bottom:0;
+
+}
+
+.footer {
+	text-align: center;
+	bottom: 0;
+	height: 60px;
+	background-color: #92716A;
+}
+
+.footer2 {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	height: 60px;
+	background-color: #92716A;
+}

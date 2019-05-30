@@ -1,0 +1,21 @@
+<%- include('partials/submitheader') %>
+
+<div class="container">
+  <div class="jumbotron centered">
+    <i class="fas fa-palette fa-6x"></i>
+    <h1 class="display-3">Personnel proposal</h1>
+    <p class="secret-text">Suggest images and we will be in touch in a day!</p>
+
+    <form action="/submit_mailchimp" method="POST">
+
+      <div class="form-group">
+       <input type="email" class="form-control text-center" name="email" placeholder="Your email address " required autofocus>
+        <input type="text" class="form-control text-center" name="image_url" placeholder="enter image url" required autofocus>
+      </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+
+  </div>
+</div>
+<%- include('partials/submitfooter') %>

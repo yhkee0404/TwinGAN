@@ -33,7 +33,9 @@ from interface import twingan_client
 from interface import waifu2x_interface
 '''
 import sys
-sys.path.insert(0, '/root/tron/TronIdol/TwinGAN/')
+sys.path.append('./')
+sys.path.append('../')
+print(sys.path)
 import face_detection_util
 import interface_utils
 import twingan_client

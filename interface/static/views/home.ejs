@@ -1,0 +1,250 @@
+<!-- Masthead -->
+<%- include('partials/header.ejs'); -%>
+<%- include('partials/masthead.ejs'); -%> 
+
+
+    <!-- Testimonials1 -->
+    <section id="testimonials" class="bg-light">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2>Transfer to your favorite masterpieces</h2>
+                    <img class="testimonial-image" src="../img/transfer/1.png" alt="tranfer-example1">
+                </div>
+                <div class="carousel-item">
+                    <h2>Experience beauty of style transfer</h2>
+                    <img class="testimonial-image" src="../img/transfer/2.png" alt="tranfer-example2">
+                </div>
+                <div class="carousel-item">
+                    <h2>DiverCity helps your photograph</h2>
+                    <img class="testimonial-image" src="../img/transfer/3.png" alt="tranfer-example3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+        </div>
+    </section>
+
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="icon-screen-desktop m-auto text-primary"></i>
+                        </div>
+                        <h3>Fully converted</h3>
+                        <p class="lead mb-0">This model will transfer your image style awesome!</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="icon-layers m-auto text-primary"></i>
+                        </div>
+                        <h3>Mobilenet Ready</h3>
+                        <p class="lead mb-0" style="color:black">Compact, Powerful libraries supported by tensorflow.js</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                        <div class="features-icons-icon d-flex">
+                            <i class="icon-check m-auto text-primary"></i>
+                        </div>
+                        <h3>Easy to Use</h3>
+                        <p class="lead mb-0" style="color:black">Ready to use with your own content with your own styles!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Transfer section *Input* -->
+    
+    <!-- 
+    
+    
+--> 
+    <section class="bg-light">
+        <div class="tab-pane fade show active" id="stylize" role="tabpanel" aria-labelledby="stylize-tab">
+            <div class="container">
+                <div class="row my-4">
+                    <div class="col mx-5 my-4">
+                        <img id="content-img" class="centered model-img" src="" height="350" width="350" />
+                        <br>
+                        <br>
+                        <select id="content_select" onChange="capture(this)" class="centered custom-select">
+                <option value="" disabled>Select content</option>
+                <option value="pic">Take a picture</option>
+                <option value="file">Select from file</option>
+                <option value="stata">stata</option>
+                <option value="diana">diana</option>
+                <option value="golden_gate">golden_gate</option>
+                <option value="selfie" selected>selfie</option>
+                <option value="chicago" >chicago</option>
+                <option value="statue_of_liberty">statue_of_liberty</option>
+              </select>
+              <div >  
+            <video id="player" width="400" height ="400" controls autoplay></video>
+            <button id="capture">Capture</button>
+            <button id="transferCapture" class="transferBtnCapture ">transferCapture</button>
+            </div>
+            
+            
+                    </div>
+                    <div class="col mx-5 my-4">
+                        <img id="style-img" class="centered model-img" crossorigin="anonymous" src="../img/styles/wave.jpg" height="350" width="350">
+                        <br>
+                        <br>
+                        <select id="style-select" class="centered custom-select myitem">
+                        <!--  style select  -->
+                        <option value="" disabled>Select a style</option>
+                        <option value="la_muse">la_muse</option>
+                        <option value="hoangho">hoangho</option>
+                        <option value="dongho">dongho</option>
+                        <option value="puzzle">puzzle</option>
+                        <option value="ubuon">ubuon</option>
+                        <option value="wreck">wreck</option>
+                        <option value="fuchun">fuchun</option>
+                        <option value="rain_princess">rain_princess</option>
+                        <option value="scream">scream</option>
+                        <option value="udnie" selected>udnie</option>
+                        <option value="wave">wave</option>
+              </select>
+              <div>            
+              <canvas style="margin-top:3rem" id="snapshot" width="400" height="350"/>
+                  
+                </div>
+                    </div>
+                </div>
+                <script>
+             function capture(content_select){
+              var selectedText = content_select.options[content_select.selectedIndex].innerHTML;
+              if(selectedText==="Take a picture"){
+              var player = document.getElementById('player');
+              var snapshotCanvas = document.getElementById('snapshot');
+              var captureButton = document.getElementById('capture');
+
+              var handleSuccess = function(stream) {
+                // Attach the video stream to the video element and autoplay.
+                player.srcObject = stream;
+              };
+
+              captureButton.addEventListener('click', function() {
+                var context = snapshot.getContext('2d');
+                // Draw the video frame to the canvas.
+                context.drawImage(player, 0, 0, snapshotCanvas.width,
+                    snapshotCanvas.height);
+              });
+
+              navigator.mediaDevices.getUserMedia({video: true})
+                  .then(handleSuccess);
+                  }
+            }
+            </script>
+                <div class="row my-4" style="padding: 0 30rem;" ); ">
+                    
+                        <button class="transferBtn "><span>Challenge tranfer</span></button>
+                    <div class="col-md-5 offset-md-3 ">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+        </div>
+
+    </section>
+
+    <!-- Transfer section *Output* -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css " rel="stylesheet " />
+    <section class="bg-light ">
+            <div id="output-container ">
+                <img class="outputImg model-img " src="https://via.placeholder.com/350 ">
+            </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light ">
+        <div class="container ">
+            <h2 class="mb-5 ">Team DiverCity</h2>
+            <div class="row ">
+                <div class="col-lg-4 ">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 ">
+                        <img class="img-fluid rounded-circle mb-3 " src="../img/selfie.jpg " alt="Jaewon Yoon ">
+                        <h5>Jaewon Yoon</h5>
+                        <p class="font-weight-light mb-0 ">"Thanks so much guys. "</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 ">
+                        <img class="img-fluid rounded-circle mb-3 " src="../img/dohyun.jpg " alt="Dohyun Kim ">
+                        <h5>Dohyun Kim</h5>
+                        <p class="font-weight-light mb-0 ">"It was nice to try applying transfer model "</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="testimonial-item mx-auto mb-5 mb-lg-0 ">
+                        <img class="img-fluid rounded-circle mb-3 " src="../img/yunho.jpg " alt="Yunho Kim " style="height:256px;width=192px; ">
+                        <h5>Yunho Kim</h5>
+                        <p class="font-weight-light mb-0 ">"ml5.js is amazing! "</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Press -->
+    <section id="press " style="text-align:center" class="bg-light ">
+        <img class="press-logo " src="../img/divercity.png " alt="tc-logo " style="width:20%; ">
+        <img class="press-logo " src="../img/mongodb.png " alt="tc-logo ">
+<!--        <img class="press-logo " src="../img/aijs.png " alt="tnw-logo ">-->
+        <img class="press-logo " src="../img/bootstrap.png " alt="biz-insider-logo ">
+        <img class="press-logo " src="../img/ml5.png " alt="mashable-logo ">
+        <img class="press-logo " src="../img/nodejs.png " alt="mashable-logo ">
+    </section>
+    
+    <!-- Call to Action -->
+    <section id="contact " class="call-to-action text-white text-center ">
+        <div class="overlay "></div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-xl-9 mx-auto ">
+                    <h2 class="mb-4 ">Keep in touch with new trends of deep-learning films!</h2>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto ">
+                    <div class="form-row ">
+                        <div class="col-12 col-md-3 ">
+                        <button onclick="location.href='subscribe_mailchimp' ; " class="btn btn-block btn-lg btn-primary ">Subscribe</button>
+<!--                            <button onclick="location.href='mailto:21300492@handong.edu ' ; " class="btn btn-block btn-lg btn-primary ">Contact!</button>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer-padding bg-light footer">   
+        <%-include('partials/footer.ejs');-%>
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="../vendor/jquery/jquery.min.js "></script>
+    <script src="../js/index.js "></script>
+    <script src="../js/sketch.js "></script>
+    <script src="../js/sketch3.js "></script>
+    </body>
+
+</html>

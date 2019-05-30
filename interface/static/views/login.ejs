@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Signin</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/signInStyles.css" rel="stylesheet">
+    <!-- sweet alert 2                   -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+</head>
+
+<body class="text-center">
+    <form action="/login" class="form-signin" method="post">
+        <a href="/">
+        <img class="mb-4"  src="/images/divercity.png" alt="" width="300" height="200">
+        </a>
+        <h1 class="h3 mb-3 font-weight-normal"> </h1>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" name="username" class="form-control top" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="password" class="form-control middle" placeholder="Password" alt="password" autofocus required>
+        <div class="checkbox mb-3">
+            <label>
+<!--      <input type="checkbox" value="remember-me"> Remember me-->
+    </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" id="signupbtn" >Login</button>
+        
+<!--        <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">-->
+           <a class="btn btn-block btn-primary btn-social btn-google" href="/auth/google" role="button" style="padding-left:9rem;">
+            Sign In with Google
+          </a>
+          <a class="btn btn-block btn-primary btn-social btn-yahoo" href="/signup" role="button" style="padding-left:12rem;">
+            
+            Register
+          </a>
+        <p class="mt-5 mb-3 text-muted">&copy; DiverCity 2019</p>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="views/partials/alert.js "></script>
+</body>
+
+</html>
